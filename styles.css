@@ -91,3 +91,30 @@
   color: var(--very-light-grey);
   background: var(--very-dark-cyan);
 }
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 992px;
+  }
+
+  .single-card {
+    width: 33.333%;
+  }
+  .card-1 {
+    border-top-right-radius: unset;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  .card-3 {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: unset;
+  }
+  .btn {
+    margin: 5rem 0 0.5rem 0;
+  }
+}
